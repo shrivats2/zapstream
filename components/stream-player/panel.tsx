@@ -105,7 +105,10 @@ export const Panel = ({ panel, hostIdentity, viewerIdentity }: PanelProps) => {
             ) : (
               <>
                 {panel.map((panels, key) => (
-                  <div className="relative cursor-pointer bg-secondary p-3 transition-colors min-h-72 flex items-center justify-center">
+                  <div
+                    key={panels.p_id}
+                    className="relative cursor-pointer bg-secondary p-3 transition-colors min-h-72 flex items-center justify-center"
+                  >
                     <PanelEditForm
                       title={panels.title}
                       panel_img={panels.panel_img}
