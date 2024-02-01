@@ -37,7 +37,6 @@ export const PanelForm = ({ setopenAddPanel }: PanelFormProps) => {
 
   function onSubmit(data: any) {
     data.panel_img = panelIMG;
-    console.log(data);
 
     startTransition(() => {
       insertPanelForUser(data)
@@ -119,6 +118,7 @@ export const PanelForm = ({ setopenAddPanel }: PanelFormProps) => {
         />
         <div className="flex items-center justify-between">
           <Button
+            className="hover:bg-rose-900"
             variant="outline"
             size="sm"
             type="reset"

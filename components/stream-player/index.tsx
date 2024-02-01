@@ -29,7 +29,7 @@ type CustomUser = {
   bio: string | null;
   stream: CustomStream | null;
   imageUrl: string;
-  panel: [];
+  panel: any;
   _count: { followedBy: number };
 };
 

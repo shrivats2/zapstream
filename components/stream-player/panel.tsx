@@ -3,14 +3,6 @@ import React, { useState } from "react";
 import { PanelForm } from "./panel-form";
 import { useChatSidebar } from "@/store/use-chat-sidebar";
 import { cn } from "@/lib/utils";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
 import Link from "next/link";
 import { Switch } from "../ui/switch";
 import { Label } from "../ui/label";

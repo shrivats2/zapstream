@@ -138,6 +138,8 @@ export const PanelEditForm = ({
         />
         <div className="flex items-center justify-between">
           <Button
+            className="hover:bg-rose-900"
+            disabled={isPending}
             variant="outline"
             size="sm"
             type="reset"
