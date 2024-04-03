@@ -1,3 +1,10 @@
+
+![Screenshot 2024-04-03 155514](https://github.com/shrivats2/zapstream/assets/61049031/d9b15d52-e8ce-4362-a75c-abca7b3c7a50)
+![Screenshot 2024-04-03 160608](https://github.com/shrivats2/zapstream/assets/61049031/82c499c0-f6b1-4dd8-bf9f-3fc4a588144e)
+![Screenshot 2024-04-03 160136](https://github.com/shrivats2/zapstream/assets/61049031/7ef4a1a4-ae1e-4053-bdac-ef0f2fc0d31c)
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
